@@ -1,0 +1,260 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: MedInc
+mse: 19060.95486343062
+samples: 14447"]
+	1 [label="
+id: 1
+splitValue: 0
+nextSplitAttribute: HouseAge
+mse: 5623.542143160621
+samples: 8094"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: 0
+mse: 70.56282163870968
+samples: 155
+avgValue: 1.490767741935484"]
+	1 -> 2
+	3 [label="
+id: 3
+splitValue: 1
+mse: 94.34039192009965
+samples: 279
+avgValue: 1.3040000358422936"]
+	1 -> 3
+	4 [label="
+id: 4
+splitValue: 2
+mse: 171.81685336850092
+samples: 424
+avgValue: 1.3463939150943398"]
+	1 -> 4
+	5 [label="
+id: 5
+splitValue: 3
+mse: 474.67431243131455
+samples: 1133
+avgValue: 1.3511473786407766"]
+	1 -> 5
+	6 [label="
+id: 6
+splitValue: 4
+mse: 641.3083434363633
+samples: 885
+avgValue: 1.5149402033898305"]
+	1 -> 6
+	7 [label="
+id: 7
+splitValue: 5
+mse: 651.0208094010267
+samples: 842
+avgValue: 1.5470048337292162"]
+	1 -> 7
+	8 [label="
+id: 8
+splitValue: 6
+mse: 818.221438398185
+samples: 1163
+avgValue: 1.515389570077386"]
+	1 -> 8
+	9 [label="
+id: 9
+splitValue: 7
+mse: 709.991046378711
+samples: 1164
+avgValue: 1.490119501718213"]
+	1 -> 9
+	10 [label="
+id: 10
+splitValue: 8
+mse: 381.18502383485804
+samples: 641
+avgValue: 1.4995257566302653"]
+	1 -> 10
+	11 [label="
+id: 11
+splitValue: 9
+mse: 418.0134164081116
+samples: 663
+avgValue: 1.571383152337858"]
+	1 -> 11
+	12 [label="
+id: 12
+splitValue: 10
+mse: 971.4619229202021
+samples: 745
+avgValue: 1.9820016375838927"]
+	1 -> 12
+	13 [label="
+id: 13
+splitValue: 1
+nextSplitAttribute: HouseAge
+mse: 5259.243451646029
+samples: 5525"]
+	0 -> 13
+	14 [label="
+id: 14
+splitValue: 0
+mse: 227.10941364006226
+samples: 334
+avgValue: 2.1891559281437125"]
+	13 -> 14
+	15 [label="
+id: 15
+splitValue: 1
+mse: 228.31613874227747
+samples: 284
+avgValue: 2.168584718309859"]
+	13 -> 15
+	16 [label="
+id: 16
+splitValue: 2
+mse: 196.49525186197897
+samples: 333
+avgValue: 2.1783814714714715"]
+	13 -> 16
+	17 [label="
+id: 17
+splitValue: 3
+mse: 668.6043162180104
+samples: 886
+avgValue: 2.3438466930022575"]
+	13 -> 17
+	18 [label="
+id: 18
+splitValue: 4
+mse: 448.17586787946595
+samples: 585
+avgValue: 2.401504478632479"]
+	13 -> 18
+	19 [label="
+id: 19
+splitValue: 5
+mse: 519.2133277098503
+samples: 556
+avgValue: 2.6069158992805757"]
+	13 -> 19
+	20 [label="
+id: 20
+splitValue: 6
+mse: 531.7426069545484
+samples: 550
+avgValue: 2.500434945454545"]
+	13 -> 20
+	21 [label="
+id: 21
+splitValue: 7
+mse: 905.2845405883984
+samples: 1047
+avgValue: 2.477559961795607"]
+	13 -> 21
+	22 [label="
+id: 22
+splitValue: 8
+mse: 234.17850462909956
+samples: 246
+avgValue: 2.8803866260162603"]
+	13 -> 22
+	23 [label="
+id: 23
+splitValue: 9
+mse: 289.6140179093945
+samples: 291
+avgValue: 2.7895501374570446"]
+	13 -> 23
+	24 [label="
+id: 24
+splitValue: 10
+mse: 495.6197850602033
+samples: 413
+avgValue: 3.385650847457627"]
+	13 -> 24
+	25 [label="
+id: 25
+splitValue: 2
+nextSplitAttribute: HouseAge
+mse: 582.8661865212765
+samples: 828"]
+	0 -> 25
+	26 [label="
+id: 26
+splitValue: 0
+mse: 44.10753994588678
+samples: 53
+avgValue: 3.8894741509433968"]
+	25 -> 26
+	27 [label="
+id: 27
+splitValue: 1
+mse: 24.085558528097135
+samples: 35
+avgValue: 3.9900882857142856"]
+	25 -> 27
+	28 [label="
+id: 28
+splitValue: 2
+mse: 23.05948801712037
+samples: 54
+avgValue: 3.67631574074074"]
+	25 -> 28
+	29 [label="
+id: 29
+splitValue: 3
+mse: 86.74210438271706
+samples: 123
+avgValue: 3.730221219512195"]
+	25 -> 29
+	30 [label="
+id: 30
+splitValue: 4
+mse: 63.540400044476165
+samples: 105
+avgValue: 4.25756619047619"]
+	25 -> 30
+	31 [label="
+id: 31
+splitValue: 5
+mse: 83.09283134727522
+samples: 101
+avgValue: 4.197440495049504"]
+	25 -> 31
+	32 [label="
+id: 32
+splitValue: 6
+mse: 34.52694617238764
+samples: 81
+avgValue: 4.540375679012345"]
+	25 -> 32
+	33 [label="
+id: 33
+splitValue: 7
+mse: 22.804978821654615
+samples: 108
+avgValue: 4.798655648148149"]
+	25 -> 33
+	34 [label="
+id: 34
+splitValue: 8
+mse: 15.379030540680429
+samples: 46
+avgValue: 4.727549347826087"]
+	25 -> 34
+	35 [label="
+id: 35
+splitValue: 9
+mse: 2.782702065781818
+samples: 22
+avgValue: 4.845280909090909"]
+	25 -> 35
+	36 [label="
+id: 36
+splitValue: 10
+mse: 48.849197452175986
+samples: 100
+avgValue: 4.661256799999999"]
+	25 -> 36
+}

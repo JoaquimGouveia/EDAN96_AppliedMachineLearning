@@ -1,0 +1,68 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: MedInc
+mse: 19173.72838269599
+samples: 14447"]
+	1 [label="
+id: 1
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 5387.190038582532
+samples: 8035"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: 0
+mse: 5387.190038582532
+samples: 8035
+avgValue: 1.5153809110143124"]
+	1 -> 2
+	3 [label="
+id: 3
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	1 -> 3
+	4 [label="
+id: 4
+splitValue: 1
+nextSplitAttribute: AveOccup
+mse: 5458.94070059296
+samples: 5559"]
+	0 -> 4
+	5 [label="
+id: 5
+splitValue: 0
+mse: 5458.94070059296
+samples: 5559
+avgValue: 2.5108050512682136"]
+	4 -> 5
+	6 [label="
+id: 6
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	4 -> 6
+	7 [label="
+id: 7
+splitValue: 2
+nextSplitAttribute: AveOccup
+mse: 635.8295102360446
+samples: 853"]
+	0 -> 7
+	8 [label="
+id: 8
+splitValue: 0
+mse: 635.8295102360446
+samples: 853
+avgValue: 4.273356225087925"]
+	7 -> 8
+	9 [label="
+id: 9
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	7 -> 9
+}

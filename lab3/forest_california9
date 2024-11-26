@@ -1,0 +1,195 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: MedInc
+mse: 19400.076388295678
+samples: 14447"]
+	1 [label="
+id: 1
+splitValue: 0
+nextSplitAttribute: Latitude
+mse: 5667.664689534541
+samples: 8049"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: 0
+mse: 327.0593901753923
+samples: 674
+avgValue: 1.489870949554896"]
+	1 -> 2
+	3 [label="
+id: 3
+splitValue: 1
+mse: 2312.931225510502
+samples: 3336
+avgValue: 1.7828073800959232"]
+	1 -> 3
+	4 [label="
+id: 4
+splitValue: 2
+mse: 186.57949356327595
+samples: 416
+avgValue: 1.0455385096153846"]
+	1 -> 4
+	5 [label="
+id: 5
+splitValue: 3
+mse: 405.58992313718267
+samples: 716
+avgValue: 1.0879217597765365"]
+	1 -> 5
+	6 [label="
+id: 6
+splitValue: 4
+mse: 1385.3007032369935
+samples: 1520
+avgValue: 1.759264631578947"]
+	1 -> 6
+	7 [label="
+id: 7
+splitValue: 5
+mse: 159.29535115502793
+samples: 716
+avgValue: 1.2717108938547486"]
+	1 -> 7
+	8 [label="
+id: 8
+splitValue: 6
+mse: 68.40723857641524
+samples: 407
+avgValue: 1.0346756265356265"]
+	1 -> 8
+	9 [label="
+id: 9
+splitValue: 7
+mse: 13.055717439393938
+samples: 264
+avgValue: 0.8262348484848485"]
+	1 -> 9
+	10 [label="
+id: 10
+splitValue: 1
+nextSplitAttribute: Latitude
+mse: 5517.338605679932
+samples: 5515"]
+	0 -> 10
+	11 [label="
+id: 11
+splitValue: 0
+mse: 344.93675789328745
+samples: 494
+avgValue: 2.2803767206477734"]
+	10 -> 11
+	12 [label="
+id: 12
+splitValue: 1
+mse: 2525.5406259320075
+samples: 2645
+avgValue: 2.6234186124763705"]
+	10 -> 12
+	13 [label="
+id: 13
+splitValue: 2
+mse: 162.3660105139851
+samples: 168
+avgValue: 1.8746727976190474"]
+	10 -> 13
+	14 [label="
+id: 14
+splitValue: 3
+mse: 260.13838173833153
+samples: 225
+avgValue: 2.0505467555555557"]
+	10 -> 14
+	15 [label="
+id: 15
+splitValue: 4
+mse: 1527.0457037042484
+samples: 1488
+avgValue: 2.8249375336021507"]
+	10 -> 15
+	16 [label="
+id: 16
+splitValue: 5
+mse: 175.5582372209026
+samples: 421
+avgValue: 1.9844916864608075"]
+	10 -> 16
+	17 [label="
+id: 17
+splitValue: 6
+mse: 23.359262984615388
+samples: 65
+avgValue: 1.6087846153846153"]
+	10 -> 17
+	18 [label="
+id: 18
+splitValue: 7
+mse: 0.18100288888888885
+samples: 9
+avgValue: 1.426111111111111"]
+	10 -> 18
+	19 [label="
+id: 19
+splitValue: 2
+nextSplitAttribute: Latitude
+mse: 668.125539232731
+samples: 883"]
+	0 -> 19
+	20 [label="
+id: 20
+splitValue: 0
+mse: 29.67722618298999
+samples: 40
+avgValue: 4.204429500000001"]
+	19 -> 20
+	21 [label="
+id: 21
+splitValue: 1
+mse: 376.6093269665921
+samples: 493
+avgValue: 4.244010649087221"]
+	19 -> 21
+	22 [label="
+id: 22
+splitValue: 2
+mse: 0.9220819999999998
+samples: 3
+avgValue: 2.562"]
+	19 -> 22
+	23 [label="
+id: 23
+splitValue: 3
+mse: 21.924121168173333
+samples: 15
+avgValue: 2.914134666666667"]
+	19 -> 23
+	24 [label="
+id: 24
+splitValue: 4
+mse: 184.78583981921824
+samples: 317
+avgValue: 4.2977392429022085"]
+	19 -> 24
+	25 [label="
+id: 25
+splitValue: 5
+mse: 6.5908024
+samples: 15
+avgValue: 3.3411999999999997"]
+	19 -> 25
+	26 [label="
+id: 26
+splitValue: 6
+samples: 0
+avgValue: 0.0"]
+	19 -> 26
+	27 [label="
+id: 27
+splitValue: 7
+samples: 0
+avgValue: 0.0"]
+	19 -> 27
+}

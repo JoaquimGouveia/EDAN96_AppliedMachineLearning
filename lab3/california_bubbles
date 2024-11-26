@@ -1,0 +1,29 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: MedInc
+mse: 19225.25265468507
+samples: 14447"]
+	1 [label="
+id: 1
+splitValue: 0
+mse: 5555.6589059151065
+samples: 8095
+avgValue: 1.5283094021000618"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: 1
+mse: 5374.99586824226
+samples: 5485
+avgValue: 2.5193788915223334"]
+	0 -> 2
+	3 [label="
+id: 3
+splitValue: 2
+mse: 663.6681931259743
+samples: 867
+avgValue: 4.2573113264129185"]
+	0 -> 3
+}

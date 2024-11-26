@@ -1,0 +1,74 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: AveRooms
+mse: 18953.86592640215
+samples: 14447"]
+	1 [label="
+id: 1
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 8470.176266522729
+samples: 8724"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: 0
+mse: 8470.176266522729
+samples: 8724
+avgValue: 1.8101881682714351"]
+	1 -> 2
+	3 [label="
+id: 3
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	1 -> 3
+	4 [label="
+id: 4
+splitValue: 1
+nextSplitAttribute: AveOccup
+mse: 8983.02090056658
+samples: 5663"]
+	0 -> 4
+	5 [label="
+id: 5
+splitValue: 0
+mse: 8983.02090056658
+samples: 5663
+avgValue: 2.464738454882571"]
+	4 -> 5
+	6 [label="
+id: 6
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	4 -> 6
+	7 [label="
+id: 7
+splitValue: 2
+nextSplitAttribute: AveOccup
+mse: 16.592656
+samples: 60"]
+	0 -> 7
+	8 [label="
+id: 8
+splitValue: 0
+mse: 16.592656
+samples: 60
+avgValue: 1.6039999999999999"]
+	7 -> 8
+	9 [label="
+id: 9
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	7 -> 9
+	10 [label="
+id: 10
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	0 -> 10
+}

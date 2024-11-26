@@ -1,0 +1,99 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: AveRooms
+mse: 19314.996384843405
+samples: 14447"]
+	1 [label="
+id: 1
+splitValue: 0
+nextSplitAttribute: Longitude
+mse: 8576.188822519876
+samples: 8658"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: 0
+mse: 3445.6040940438825
+samples: 3169
+avgValue: 1.8324568065635847"]
+	1 -> 2
+	3 [label="
+id: 3
+splitValue: 1
+mse: 4098.089339620897
+samples: 4168
+avgValue: 1.946379560940499"]
+	1 -> 3
+	4 [label="
+id: 4
+splitValue: 2
+mse: 779.790502628395
+samples: 1321
+avgValue: 1.4445489326267977"]
+	1 -> 4
+	5 [label="
+id: 5
+splitValue: 1
+nextSplitAttribute: Longitude
+mse: 9316.757773329246
+samples: 5725"]
+	0 -> 5
+	6 [label="
+id: 6
+splitValue: 0
+mse: 3865.213321159743
+samples: 2463
+avgValue: 2.39288748680471"]
+	5 -> 6
+	7 [label="
+id: 7
+splitValue: 1
+mse: 3546.595883482676
+samples: 1923
+avgValue: 2.7734554550182007"]
+	5 -> 7
+	8 [label="
+id: 8
+splitValue: 2
+mse: 1555.4728738669833
+samples: 1339
+avgValue: 2.1259076624346527"]
+	5 -> 8
+	9 [label="
+id: 9
+splitValue: 2
+nextSplitAttribute: Longitude
+mse: 50.23562771428573
+samples: 63"]
+	0 -> 9
+	10 [label="
+id: 10
+splitValue: 0
+mse: 34.07298896153846
+samples: 26
+avgValue: 2.030961538461539"]
+	9 -> 10
+	11 [label="
+id: 11
+splitValue: 1
+mse: 8.20592676923077
+samples: 13
+avgValue: 1.6323076923076925"]
+	9 -> 11
+	12 [label="
+id: 12
+splitValue: 2
+mse: 6.402595999999999
+samples: 24
+avgValue: 1.789"]
+	9 -> 12
+	13 [label="
+id: 13
+splitValue: 3
+mse: 0.0
+samples: 1
+avgValue: 1.625"]
+	0 -> 13
+}

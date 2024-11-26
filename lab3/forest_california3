@@ -1,0 +1,68 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: Population
+mse: 19252.55654362005
+samples: 14447"]
+	1 [label="
+id: 1
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 17679.48833160603
+samples: 12793"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: 0
+mse: 17679.48833160603
+samples: 12793
+avgValue: 2.0612901704056905"]
+	1 -> 2
+	3 [label="
+id: 3
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	1 -> 3
+	4 [label="
+id: 4
+splitValue: 1
+nextSplitAttribute: AveOccup
+mse: 1571.4226576277138
+samples: 1652"]
+	0 -> 4
+	5 [label="
+id: 5
+splitValue: 0
+mse: 1571.4226576277138
+samples: 1652
+avgValue: 2.0452932627118643"]
+	4 -> 5
+	6 [label="
+id: 6
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	4 -> 6
+	7 [label="
+id: 7
+splitValue: 2
+nextSplitAttribute: AveOccup
+mse: 0.01216800000000002
+samples: 2"]
+	0 -> 7
+	8 [label="
+id: 8
+splitValue: 0
+mse: 0.01216800000000002
+samples: 2
+avgValue: 1.266"]
+	7 -> 8
+	9 [label="
+id: 9
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	7 -> 9
+}

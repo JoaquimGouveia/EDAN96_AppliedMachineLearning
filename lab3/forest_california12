@@ -1,0 +1,92 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: MedInc
+mse: 19421.090531872185
+samples: 14447"]
+	1 [label="
+id: 1
+splitValue: 0
+nextSplitAttribute: Longitude
+mse: 5690.443600646596
+samples: 8000"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: 0
+mse: 2405.709351897399
+samples: 3165
+avgValue: 1.517080018957346"]
+	1 -> 2
+	3 [label="
+id: 3
+splitValue: 1
+mse: 2521.7028897574883
+samples: 3428
+avgValue: 1.6553831126021004"]
+	1 -> 3
+	4 [label="
+id: 4
+splitValue: 2
+mse: 650.5527633336316
+samples: 1407
+avgValue: 1.3246866311300638"]
+	1 -> 4
+	5 [label="
+id: 5
+splitValue: 1
+nextSplitAttribute: Longitude
+mse: 5534.553955153586
+samples: 5576"]
+	0 -> 5
+	6 [label="
+id: 6
+splitValue: 0
+mse: 2133.4158931548354
+samples: 2174
+avgValue: 2.5658969319227234"]
+	5 -> 6
+	7 [label="
+id: 7
+splitValue: 1
+mse: 2397.875705548447
+samples: 2315
+avgValue: 2.6420298488120952"]
+	5 -> 7
+	8 [label="
+id: 8
+splitValue: 2
+mse: 811.9304391291839
+samples: 1087
+avgValue: 2.1455779392824286"]
+	5 -> 8
+	9 [label="
+id: 9
+splitValue: 2
+nextSplitAttribute: Longitude
+mse: 680.9477896312935
+samples: 871"]
+	0 -> 9
+	10 [label="
+id: 10
+splitValue: 0
+mse: 211.85694112623378
+samples: 331
+avgValue: 4.272097824773414"]
+	9 -> 10
+	11 [label="
+id: 11
+splitValue: 1
+mse: 292.62165372679215
+samples: 361
+avgValue: 4.438698504155124"]
+	9 -> 11
+	12 [label="
+id: 12
+splitValue: 2
+mse: 139.84916788947373
+samples: 179
+avgValue: 3.885935083798883"]
+	9 -> 12
+}

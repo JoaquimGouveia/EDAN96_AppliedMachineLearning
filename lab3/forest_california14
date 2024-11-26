@@ -1,0 +1,35 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: AveBedrms
+mse: 19186.502743021676
+samples: 14447"]
+	1 [label="
+id: 1
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 19186.307213547803
+samples: 14446"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: 0
+mse: 19186.307213547803
+samples: 14446
+avgValue: 2.0672024525820296"]
+	1 -> 2
+	3 [label="
+id: 3
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	1 -> 3
+	4 [label="
+id: 4
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 1.625"]
+	0 -> 4
+}
