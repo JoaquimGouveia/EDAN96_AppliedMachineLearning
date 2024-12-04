@@ -2,98 +2,278 @@ digraph {
 	0 [label="
 id: 0
 splitValue: -
-nextSplitAttribute: AveRooms
-mse: 19551.571970263478
+nextSplitAttribute: Latitude
+mse: 19333.562724829128
 samples: 14447"]
 	1 [label="
 id: 1
 splitValue: 0
-nextSplitAttribute: Longitude
-mse: 8483.885656794802
-samples: 8586"]
+nextSplitAttribute: AveRooms
+mse: 1230.7523353533795
+samples: 1257"]
 	0 -> 1
 	2 [label="
 id: 2
 splitValue: 0
-mse: 3207.8285438436496
-samples: 3088
-avgValue: 1.8096912532383418"]
+mse: 418.6410694348185
+samples: 708
+avgValue: 1.5924788841807909"]
 	1 -> 2
 	3 [label="
 id: 3
 splitValue: 1
-mse: 4317.756631430873
-samples: 4163
-avgValue: 1.9489150228200816"]
+mse: 631.9720073173916
+samples: 549
+avgValue: 2.35573276867031"]
 	1 -> 3
 	4 [label="
 id: 4
 splitValue: 2
-mse: 660.909547272106
-samples: 1335
-avgValue: 1.4066142921348315"]
+samples: 0
+avgValue: 0.0"]
 	1 -> 4
 	5 [label="
 id: 5
-splitValue: 1
-nextSplitAttribute: Longitude
-mse: 9515.812118980042
-samples: 5801"]
-	0 -> 5
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	1 -> 5
 	6 [label="
 id: 6
-splitValue: 0
-mse: 4036.1288946805817
-samples: 2549
-avgValue: 2.3881710513927032"]
-	5 -> 6
+splitValue: 1
+nextSplitAttribute: AveRooms
+mse: 8426.252116859994
+samples: 6530"]
+	0 -> 6
 	7 [label="
 id: 7
-splitValue: 1
-mse: 3525.376201706843
-samples: 1927
-avgValue: 2.7840434665282827"]
-	5 -> 7
+splitValue: 0
+mse: 3799.904559492597
+samples: 4274
+avgValue: 1.9993774403369207"]
+	6 -> 7
 	8 [label="
 id: 8
-splitValue: 2
-mse: 1641.2785373728848
-samples: 1325
-avgValue: 2.187163388679245"]
-	5 -> 8
+splitValue: 1
+mse: 3565.4175526527497
+samples: 2233
+avgValue: 2.8443358128078815"]
+	6 -> 8
 	9 [label="
 id: 9
 splitValue: 2
-nextSplitAttribute: Longitude
-mse: 37.22383694915254
-samples: 59"]
-	0 -> 9
+mse: 7.427948869565218
+samples: 23
+avgValue: 1.7633043478260868"]
+	6 -> 9
 	10 [label="
 id: 10
-splitValue: 0
-mse: 20.026738958333333
-samples: 24
-avgValue: 1.6280416666666664"]
-	9 -> 10
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	6 -> 10
 	11 [label="
 id: 11
-splitValue: 1
-mse: 6.96187411764706
-samples: 17
-avgValue: 1.6644117647058825"]
-	9 -> 11
+splitValue: 2
+nextSplitAttribute: AveRooms
+mse: 347.43087216010986
+samples: 557"]
+	0 -> 11
 	12 [label="
 id: 12
-splitValue: 2
-mse: 10.1236225
-samples: 18
-avgValue: 1.7318333333333333"]
-	9 -> 12
+splitValue: 0
+mse: 118.65621504960463
+samples: 303
+avgValue: 1.038613894389439"]
+	11 -> 12
 	13 [label="
 id: 13
-splitValue: 3
+splitValue: 1
+mse: 183.77489645673913
+samples: 253
+avgValue: 1.60846652173913"]
+	11 -> 13
+	14 [label="
+id: 14
+splitValue: 2
 mse: 0.0
 samples: 1
-avgValue: 1.625"]
-	0 -> 13
+avgValue: 0.821"]
+	11 -> 14
+	15 [label="
+id: 15
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	11 -> 15
+	16 [label="
+id: 16
+splitValue: 3
+nextSplitAttribute: AveRooms
+mse: 733.8951263058768
+samples: 916"]
+	0 -> 16
+	17 [label="
+id: 17
+splitValue: 0
+mse: 316.94375289324074
+samples: 589
+avgValue: 1.09177078098472"]
+	16 -> 17
+	18 [label="
+id: 18
+splitValue: 1
+mse: 337.38293871978914
+samples: 322
+avgValue: 1.5995745652173916"]
+	16 -> 18
+	19 [label="
+id: 19
+splitValue: 2
+mse: 7.95675
+samples: 5
+avgValue: 3.1700000000000004"]
+	16 -> 19
+	20 [label="
+id: 20
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	16 -> 20
+	21 [label="
+id: 21
+splitValue: 4
+nextSplitAttribute: AveRooms
+mse: 5074.650025146275
+samples: 3315"]
+	0 -> 21
+	22 [label="
+id: 22
+splitValue: 0
+mse: 2332.443059999744
+samples: 1956
+avgValue: 2.14681677402863"]
+	21 -> 22
+	23 [label="
+id: 23
+splitValue: 1
+mse: 2210.5132253065985
+samples: 1353
+avgValue: 2.957366637102734"]
+	21 -> 23
+	24 [label="
+id: 24
+splitValue: 2
+mse: 4.395385333333333
+samples: 6
+avgValue: 1.9223333333333332"]
+	21 -> 24
+	25 [label="
+id: 25
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	21 -> 25
+	26 [label="
+id: 26
+splitValue: 5
+nextSplitAttribute: AveRooms
+mse: 468.605339609319
+samples: 1116"]
+	0 -> 26
+	27 [label="
+id: 27
+splitValue: 0
+mse: 121.11126615209125
+samples: 526
+avgValue: 1.3097870722433462"]
+	26 -> 27
+	28 [label="
+id: 28
+splitValue: 1
+mse: 278.30628254545456
+samples: 583
+avgValue: 1.8035454545454548"]
+	26 -> 28
+	29 [label="
+id: 29
+splitValue: 2
+mse: 0.6554017142857143
+samples: 7
+avgValue: 1.1684285714285714"]
+	26 -> 29
+	30 [label="
+id: 30
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	26 -> 30
+	31 [label="
+id: 31
+splitValue: 6
+nextSplitAttribute: AveRooms
+mse: 135.18697307006371
+samples: 471"]
+	0 -> 31
+	32 [label="
+id: 32
+splitValue: 0
+mse: 29.152513004149377
+samples: 241
+avgValue: 0.9537344398340248"]
+	31 -> 32
+	33 [label="
+id: 33
+splitValue: 1
+mse: 56.64628316431926
+samples: 213
+avgValue: 1.265361502347418"]
+	31 -> 33
+	34 [label="
+id: 34
+splitValue: 2
+mse: 15.269527058823531
+samples: 17
+avgValue: 2.2882352941176474"]
+	31 -> 34
+	35 [label="
+id: 35
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	31 -> 35
+	36 [label="
+id: 36
+splitValue: 7
+nextSplitAttribute: AveRooms
+mse: 21.816862512280704
+samples: 285"]
+	0 -> 36
+	37 [label="
+id: 37
+splitValue: 0
+mse: 8.095975721854305
+samples: 151
+avgValue: 0.823384105960265"]
+	36 -> 37
+	38 [label="
+id: 38
+splitValue: 1
+mse: 13.04464613740458
+samples: 131
+avgValue: 0.8846412213740458"]
+	36 -> 38
+	39 [label="
+id: 39
+splitValue: 2
+mse: 0.26164266666666663
+samples: 3
+avgValue: 1.0776666666666666"]
+	36 -> 39
+	40 [label="
+id: 40
+splitValue: 3
+samples: 0
+avgValue: 0.0"]
+	36 -> 40
 }

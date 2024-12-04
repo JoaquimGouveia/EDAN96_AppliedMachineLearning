@@ -2,68 +2,679 @@ digraph {
 	0 [label="
 id: 0
 splitValue: -
-nextSplitAttribute: Longitude
-mse: 18920.12307391942
+nextSplitAttribute: Latitude
+mse: 19257.915241105322
 samples: 14447"]
 	1 [label="
 id: 1
 splitValue: 0
-nextSplitAttribute: AveBedrms
-mse: 7723.599942169019
-samples: 5741"]
+nextSplitAttribute: HouseAge
+mse: 1268.2788433537144
+samples: 1259"]
 	0 -> 1
 	2 [label="
 id: 2
 splitValue: 0
-mse: 7723.599942169019
-samples: 5741
-avgValue: 2.0489570405852637"]
+mse: 89.14980317754794
+samples: 73
+avgValue: 2.4013839726027397"]
 	1 -> 2
 	3 [label="
 id: 3
 splitValue: 1
-samples: 0
-avgValue: 0.0"]
+mse: 62.588495842857135
+samples: 70
+avgValue: 2.033128571428571"]
 	1 -> 3
 	4 [label="
 id: 4
-splitValue: 1
-nextSplitAttribute: AveBedrms
-mse: 8284.311120399223
-samples: 5974"]
-	0 -> 4
+splitValue: 2
+mse: 70.02743447224196
+samples: 112
+avgValue: 1.9978215178571428"]
+	1 -> 4
 	5 [label="
 id: 5
-splitValue: 0
-mse: 8283.689468959794
-samples: 5972
-avgValue: 2.18261080877428"]
-	4 -> 5
+splitValue: 3
+mse: 242.6876804296613
+samples: 313
+avgValue: 1.8656903514377"]
+	1 -> 5
 	6 [label="
 id: 6
-splitValue: 1
-mse: 0.0
-samples: 2
-avgValue: 1.625"]
-	4 -> 6
+splitValue: 4
+mse: 140.22562123448333
+samples: 168
+avgValue: 1.7762858333333333"]
+	1 -> 6
 	7 [label="
 id: 7
-splitValue: 2
-nextSplitAttribute: AveBedrms
-mse: 2589.338823465657
-samples: 2732"]
-	0 -> 7
+splitValue: 5
+mse: 106.3307575442595
+samples: 121
+avgValue: 1.821099421487603"]
+	1 -> 7
 	8 [label="
 id: 8
-splitValue: 0
-mse: 2589.338823465657
-samples: 2732
-avgValue: 1.7674434407027817"]
-	7 -> 8
+splitValue: 6
+mse: 169.8144403135862
+samples: 145
+avgValue: 1.8785244827586207"]
+	1 -> 8
 	9 [label="
 id: 9
+splitValue: 7
+mse: 194.03901215122596
+samples: 154
+avgValue: 1.8708770129870131"]
+	1 -> 9
+	10 [label="
+id: 10
+splitValue: 8
+mse: 42.12201689009545
+samples: 22
+avgValue: 2.430500454545454"]
+	1 -> 10
+	11 [label="
+id: 11
+splitValue: 9
+mse: 44.430001974999996
+samples: 40
+avgValue: 1.746275"]
+	1 -> 11
+	12 [label="
+id: 12
+splitValue: 10
+mse: 73.93807619149754
+samples: 41
+avgValue: 2.098439756097561"]
+	1 -> 12
+	13 [label="
+id: 13
 splitValue: 1
-samples: 0
-avgValue: 0.0"]
-	7 -> 9
+nextSplitAttribute: HouseAge
+mse: 8295.56069662005
+samples: 6496"]
+	0 -> 13
+	14 [label="
+id: 14
+splitValue: 0
+mse: 319.9600330204615
+samples: 247
+avgValue: 2.3715230769230766"]
+	13 -> 14
+	15 [label="
+id: 15
+splitValue: 1
+mse: 318.13641862086945
+samples: 226
+avgValue: 1.9961068584070796"]
+	13 -> 15
+	16 [label="
+id: 16
+splitValue: 2
+mse: 260.53100480219797
+samples: 293
+avgValue: 2.1889114334470987"]
+	13 -> 16
+	17 [label="
+id: 17
+splitValue: 3
+mse: 692.8021521207681
+samples: 692
+avgValue: 2.245026387283237"]
+	13 -> 17
+	18 [label="
+id: 18
+splitValue: 4
+mse: 727.1810266024589
+samples: 624
+avgValue: 2.30999891025641"]
+	13 -> 18
+	19 [label="
+id: 19
+splitValue: 5
+mse: 759.3664860777869
+samples: 676
+avgValue: 2.3826943195266272"]
+	13 -> 19
+	20 [label="
+id: 20
+splitValue: 6
+mse: 1161.573727195425
+samples: 889
+avgValue: 2.3164181102362207"]
+	13 -> 20
+	21 [label="
+id: 21
+splitValue: 7
+mse: 1435.1595380491715
+samples: 1311
+avgValue: 2.2209212128146456"]
+	13 -> 21
+	22 [label="
+id: 22
+splitValue: 8
+mse: 981.8785149408709
+samples: 577
+avgValue: 2.284732253032929"]
+	13 -> 22
+	23 [label="
+id: 23
+splitValue: 9
+mse: 677.4605653926207
+samples: 541
+avgValue: 2.196556876155268"]
+	13 -> 23
+	24 [label="
+id: 24
+splitValue: 10
+mse: 839.4738549722806
+samples: 420
+avgValue: 2.7235397857142853"]
+	13 -> 24
+	25 [label="
+id: 25
+splitValue: 2
+nextSplitAttribute: HouseAge
+mse: 293.735131773927
+samples: 567"]
+	0 -> 25
+	26 [label="
+id: 26
+splitValue: 0
+mse: 9.174986868421051
+samples: 38
+avgValue: 1.493763157894737"]
+	25 -> 26
+	27 [label="
+id: 27
+splitValue: 1
+mse: 24.151454181818178
+samples: 44
+avgValue: 1.5013636363636365"]
+	25 -> 27
+	28 [label="
+id: 28
+splitValue: 2
+mse: 36.845673708498
+samples: 50
+avgValue: 1.6235802"]
+	25 -> 28
+	29 [label="
+id: 29
+splitValue: 3
+mse: 80.54066275735295
+samples: 136
+avgValue: 1.4316544117647059"]
+	25 -> 29
+	30 [label="
+id: 30
+splitValue: 4
+mse: 33.42162059999999
+samples: 60
+avgValue: 1.3443"]
+	25 -> 30
+	31 [label="
+id: 31
+splitValue: 5
+mse: 22.488637018867927
+samples: 53
+avgValue: 1.4315660377358486"]
+	25 -> 31
+	32 [label="
+id: 32
+splitValue: 6
+mse: 8.503667548387096
+samples: 62
+avgValue: 0.8456774193548388"]
+	25 -> 32
+	33 [label="
+id: 33
+splitValue: 7
+mse: 3.4737672343750003
+samples: 64
+avgValue: 0.6893906249999999"]
+	25 -> 33
+	34 [label="
+id: 34
+splitValue: 8
+mse: 10.0526585
+samples: 24
+avgValue: 0.88375"]
+	25 -> 34
+	35 [label="
+id: 35
+splitValue: 9
+mse: 6.213522285714287
+samples: 21
+avgValue: 0.8617142857142858"]
+	25 -> 35
+	36 [label="
+id: 36
+splitValue: 10
+mse: 1.6518840000000001
+samples: 15
+avgValue: 0.9009999999999999"]
+	25 -> 36
+	37 [label="
+id: 37
+splitValue: 3
+nextSplitAttribute: HouseAge
+mse: 840.1194270371352
+samples: 919"]
+	0 -> 37
+	38 [label="
+id: 38
+splitValue: 0
+mse: 6.231802000000001
+samples: 30
+avgValue: 1.084"]
+	37 -> 38
+	39 [label="
+id: 39
+splitValue: 1
+mse: 19.92201094736842
+samples: 19
+avgValue: 1.2309473684210526"]
+	37 -> 39
+	40 [label="
+id: 40
+splitValue: 2
+mse: 36.31202637179487
+samples: 78
+avgValue: 1.2467564102564102"]
+	37 -> 40
+	41 [label="
+id: 41
+splitValue: 3
+mse: 203.46379963874352
+samples: 177
+avgValue: 1.5861694350282485"]
+	37 -> 41
+	42 [label="
+id: 42
+splitValue: 4
+mse: 139.52574463905327
+samples: 169
+avgValue: 1.2994023668639052"]
+	37 -> 42
+	43 [label="
+id: 43
+splitValue: 5
+mse: 107.05095526259905
+samples: 104
+avgValue: 1.2556250961538462"]
+	37 -> 43
+	44 [label="
+id: 44
+splitValue: 6
+mse: 112.789699130137
+samples: 146
+avgValue: 1.1463082191780822"]
+	37 -> 44
+	45 [label="
+id: 45
+splitValue: 7
+mse: 69.26598422222223
+samples: 81
+avgValue: 1.270185185185185"]
+	37 -> 45
+	46 [label="
+id: 46
+splitValue: 8
+mse: 48.47972964444445
+samples: 45
+avgValue: 1.4686888888888892"]
+	37 -> 46
+	47 [label="
+id: 47
+splitValue: 9
+mse: 22.374486545454545
+samples: 33
+avgValue: 1.572727272727273"]
+	37 -> 47
+	48 [label="
+id: 48
+splitValue: 10
+mse: 50.58765624018918
+samples: 37
+avgValue: 1.5129194594594595"]
+	37 -> 48
+	49 [label="
+id: 49
+splitValue: 4
+nextSplitAttribute: HouseAge
+mse: 4931.273924370333
+samples: 3218"]
+	0 -> 49
+	50 [label="
+id: 50
+splitValue: 0
+mse: 114.69461067089101
+samples: 100
+avgValue: 2.2719903"]
+	49 -> 50
+	51 [label="
+id: 51
+splitValue: 1
+mse: 125.38747836389582
+samples: 96
+avgValue: 2.1914172916666668"]
+	49 -> 51
+	52 [label="
+id: 52
+splitValue: 2
+mse: 113.46800489343005
+samples: 133
+avgValue: 2.035188120300752"]
+	49 -> 52
+	53 [label="
+id: 53
+splitValue: 3
+mse: 465.79071623359994
+samples: 352
+avgValue: 2.274495"]
+	49 -> 53
+	54 [label="
+id: 54
+splitValue: 4
+mse: 390.91937203408145
+samples: 286
+avgValue: 2.518539125874126"]
+	49 -> 54
+	55 [label="
+id: 55
+splitValue: 5
+mse: 412.2358729413618
+samples: 322
+avgValue: 2.486677546583851"]
+	49 -> 55
+	56 [label="
+id: 56
+splitValue: 6
+mse: 524.7629509869853
+samples: 327
+avgValue: 2.6070773394495412"]
+	49 -> 56
+	57 [label="
+id: 57
+splitValue: 7
+mse: 710.6397106827135
+samples: 462
+avgValue: 2.4417129004329"]
+	49 -> 57
+	58 [label="
+id: 58
+splitValue: 8
+mse: 296.3378313876445
+samples: 218
+avgValue: 2.199890504587156"]
+	49 -> 58
+	59 [label="
+id: 59
+splitValue: 9
+mse: 274.4126290240196
+samples: 255
+avgValue: 2.0074119607843137"]
+	49 -> 59
+	60 [label="
+id: 60
+splitValue: 10
+mse: 1226.446102513618
+samples: 667
+avgValue: 2.9419025337331335"]
+	49 -> 60
+	61 [label="
+id: 61
+splitValue: 5
+nextSplitAttribute: HouseAge
+mse: 493.41302282576385
+samples: 1211"]
+	0 -> 61
+	62 [label="
+id: 62
+splitValue: 0
+mse: 10.527119176470588
+samples: 51
+avgValue: 1.9642352941176469"]
+	61 -> 62
+	63 [label="
+id: 63
+splitValue: 1
+mse: 24.895348000000002
+samples: 81
+avgValue: 1.559"]
+	61 -> 63
+	64 [label="
+id: 64
+splitValue: 2
+mse: 57.701255808
+samples: 125
+avgValue: 1.6527440000000002"]
+	61 -> 64
+	65 [label="
+id: 65
+splitValue: 3
+mse: 111.53771430996309
+samples: 271
+avgValue: 1.71590036900369"]
+	61 -> 65
+	66 [label="
+id: 66
+splitValue: 4
+mse: 48.930052408759124
+samples: 137
+avgValue: 1.498065693430657"]
+	61 -> 66
+	67 [label="
+id: 67
+splitValue: 5
+mse: 42.848585659574475
+samples: 94
+avgValue: 1.4497021276595743"]
+	61 -> 67
+	68 [label="
+id: 68
+splitValue: 6
+mse: 54.492764687999994
+samples: 125
+avgValue: 1.5758640000000002"]
+	61 -> 68
+	69 [label="
+id: 69
+splitValue: 7
+mse: 43.370406155038765
+samples: 129
+avgValue: 1.2784728682170543"]
+	61 -> 69
+	70 [label="
+id: 70
+splitValue: 8
+mse: 18.13398124444444
+samples: 45
+avgValue: 1.3797111111111109"]
+	61 -> 70
+	71 [label="
+id: 71
+splitValue: 9
+mse: 20.96656825757576
+samples: 66
+avgValue: 1.2548939393939393"]
+	61 -> 71
+	72 [label="
+id: 72
+splitValue: 10
+mse: 24.415255103448278
+samples: 87
+avgValue: 1.5165862068965519"]
+	61 -> 72
+	73 [label="
+id: 73
+splitValue: 6
+nextSplitAttribute: HouseAge
+mse: 121.70415318297873
+samples: 470"]
+	0 -> 73
+	74 [label="
+id: 74
+splitValue: 0
+mse: 3.6937467500000003
+samples: 4
+avgValue: 1.5837499999999998"]
+	73 -> 74
+	75 [label="
+id: 75
+splitValue: 1
+mse: 5.331780117647058
+samples: 34
+avgValue: 1.3892352941176471"]
+	73 -> 75
+	76 [label="
+id: 76
+splitValue: 2
+mse: 11.360408981818187
+samples: 55
+avgValue: 1.3659818181818182"]
+	73 -> 76
+	77 [label="
+id: 77
+splitValue: 3
+mse: 54.003841875000006
+samples: 128
+avgValue: 1.26153125"]
+	73 -> 77
+	78 [label="
+id: 78
+splitValue: 4
+mse: 9.904337487500001
+samples: 80
+avgValue: 1.0167375"]
+	73 -> 78
+	79 [label="
+id: 79
+splitValue: 5
+mse: 3.594032456521739
+samples: 46
+avgValue: 0.8781086956521738"]
+	73 -> 79
+	80 [label="
+id: 80
+splitValue: 6
+mse: 6.02500156097561
+samples: 41
+avgValue: 0.9197560975609756"]
+	73 -> 80
+	81 [label="
+id: 81
+splitValue: 7
+mse: 1.9565793103448272
+samples: 29
+avgValue: 0.824758620689655"]
+	73 -> 81
+	82 [label="
+id: 82
+splitValue: 8
+mse: 0.7881556666666665
+samples: 12
+avgValue: 0.8198333333333333"]
+	73 -> 82
+	83 [label="
+id: 83
+splitValue: 9
+mse: 0.5738209375000001
+samples: 16
+avgValue: 0.7339375"]
+	73 -> 83
+	84 [label="
+id: 84
+splitValue: 10
+mse: 3.88448504
+samples: 25
+avgValue: 1.01772"]
+	73 -> 84
+	85 [label="
+id: 85
+splitValue: 7
+nextSplitAttribute: HouseAge
+mse: 23.294389239286645
+samples: 307"]
+	0 -> 85
+	86 [label="
+id: 86
+splitValue: 0
+mse: 0.0004804999999999974
+samples: 2
+avgValue: 1.1265"]
+	85 -> 86
+	87 [label="
+id: 87
+splitValue: 1
+mse: 2.087813875
+samples: 8
+avgValue: 0.9403750000000001"]
+	85 -> 87
+	88 [label="
+id: 88
+splitValue: 2
+mse: 2.7697911428571427
+samples: 21
+avgValue: 1.0024285714285714"]
+	85 -> 88
+	89 [label="
+id: 89
+splitValue: 3
+mse: 3.9634410000000004
+samples: 80
+avgValue: 0.84825"]
+	85 -> 89
+	90 [label="
+id: 90
+splitValue: 4
+mse: 3.443294774999999
+samples: 40
+avgValue: 0.950925"]
+	85 -> 90
+	91 [label="
+id: 91
+splitValue: 5
+mse: 2.4035238888888895
+samples: 36
+avgValue: 0.8520555555555557"]
+	85 -> 91
+	92 [label="
+id: 92
+splitValue: 6
+mse: 3.494014181818181
+samples: 44
+avgValue: 0.7806363636363636"]
+	85 -> 92
+	93 [label="
+id: 93
+splitValue: 7
+mse: 1.1736135001857142
+samples: 28
+avgValue: 0.7848207142857145"]
+	85 -> 93
+	94 [label="
+id: 94
+splitValue: 8
+mse: 0.2860067272727273
+samples: 11
+avgValue: 0.6684545454545454"]
+	85 -> 94
+	95 [label="
+id: 95
+splitValue: 9
+mse: 0.41084854545454547
+samples: 11
+avgValue: 0.7703636363636364"]
+	85 -> 95
+	96 [label="
+id: 96
+splitValue: 10
+mse: 1.0794338461538462
+samples: 26
+avgValue: 0.7389230769230769"]
+	85 -> 96
 }

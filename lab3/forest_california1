@@ -2,22 +2,22 @@ digraph {
 	0 [label="
 id: 0
 splitValue: -
-nextSplitAttribute: AveBedrms
-mse: 19700.055387167162
+nextSplitAttribute: HouseAge
+mse: 19158.874773094743
 samples: 14447"]
 	1 [label="
 id: 1
 splitValue: 0
 nextSplitAttribute: AveOccup
-mse: 19700.055387167162
-samples: 14447"]
+mse: 629.0044153404716
+samples: 514"]
 	0 -> 1
 	2 [label="
 id: 2
 splitValue: 0
-mse: 19700.055387167162
-samples: 14447
-avgValue: 2.0796374541427287"]
+mse: 629.0044153404716
+samples: 514
+avgValue: 2.2122222178988324"]
 	1 -> 2
 	3 [label="
 id: 3
@@ -28,7 +28,201 @@ avgValue: 0.0"]
 	4 [label="
 id: 4
 splitValue: 1
+nextSplitAttribute: AveOccup
+mse: 522.7080902951012
+samples: 612"]
+	0 -> 4
+	5 [label="
+id: 5
+splitValue: 0
+mse: 522.7080902951012
+samples: 612
+avgValue: 1.7534968954248367"]
+	4 -> 5
+	6 [label="
+id: 6
+splitValue: 1
 samples: 0
 avgValue: 0.0"]
-	0 -> 4
+	4 -> 6
+	7 [label="
+id: 7
+splitValue: 2
+nextSplitAttribute: AveOccup
+mse: 772.2772013982901
+samples: 817"]
+	0 -> 7
+	8 [label="
+id: 8
+splitValue: 0
+mse: 772.2772013982901
+samples: 817
+avgValue: 1.904719889840881"]
+	7 -> 8
+	9 [label="
+id: 9
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	7 -> 9
+	10 [label="
+id: 10
+splitValue: 3
+nextSplitAttribute: AveOccup
+mse: 2078.2774494993378
+samples: 2117"]
+	0 -> 10
+	11 [label="
+id: 11
+splitValue: 0
+mse: 2078.2774494993378
+samples: 2117
+avgValue: 1.8932179310344828"]
+	10 -> 11
+	12 [label="
+id: 12
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	10 -> 12
+	13 [label="
+id: 13
+splitValue: 4
+nextSplitAttribute: AveOccup
+mse: 2132.0065681882193
+samples: 1600"]
+	0 -> 13
+	14 [label="
+id: 14
+splitValue: 0
+mse: 2132.0065681882193
+samples: 1600
+avgValue: 2.03073041875"]
+	13 -> 14
+	15 [label="
+id: 15
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	13 -> 15
+	16 [label="
+id: 16
+splitValue: 5
+nextSplitAttribute: AveOccup
+mse: 2098.413850928076
+samples: 1552"]
+	0 -> 16
+	17 [label="
+id: 17
+splitValue: 0
+mse: 2098.413850928076
+samples: 1552
+avgValue: 2.128383182989691"]
+	16 -> 17
+	18 [label="
+id: 18
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	16 -> 18
+	19 [label="
+id: 19
+splitValue: 6
+nextSplitAttribute: AveOccup
+mse: 2469.5246585379255
+samples: 1780"]
+	0 -> 19
+	20 [label="
+id: 20
+splitValue: 0
+mse: 2469.5246585379255
+samples: 1780
+avgValue: 2.0500932303370782"]
+	19 -> 20
+	21 [label="
+id: 21
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	19 -> 21
+	22 [label="
+id: 22
+splitValue: 7
+nextSplitAttribute: AveOccup
+mse: 2922.028062915485
+samples: 2301"]
+	0 -> 22
+	23 [label="
+id: 23
+splitValue: 0
+mse: 2922.028062915485
+samples: 2301
+avgValue: 2.0402151325510647"]
+	22 -> 23
+	24 [label="
+id: 24
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	22 -> 24
+	25 [label="
+id: 25
+splitValue: 8
+nextSplitAttribute: AveOccup
+mse: 1424.6191357814962
+samples: 928"]
+	0 -> 25
+	26 [label="
+id: 26
+splitValue: 0
+mse: 1424.6191357814962
+samples: 928
+avgValue: 2.023678459051724"]
+	25 -> 26
+	27 [label="
+id: 27
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	25 -> 27
+	28 [label="
+id: 28
+splitValue: 9
+nextSplitAttribute: AveOccup
+mse: 1359.7240944066018
+samples: 1009"]
+	0 -> 28
+	29 [label="
+id: 29
+splitValue: 0
+mse: 1359.7240944066018
+samples: 1009
+avgValue: 2.0486416947472748"]
+	28 -> 29
+	30 [label="
+id: 30
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	28 -> 30
+	31 [label="
+id: 31
+splitValue: 10
+nextSplitAttribute: AveOccup
+mse: 2292.3913096696233
+samples: 1217"]
+	0 -> 31
+	32 [label="
+id: 32
+splitValue: 0
+mse: 2292.3913096696233
+samples: 1217
+avgValue: 2.555614963023829"]
+	31 -> 32
+	33 [label="
+id: 33
+splitValue: 1
+samples: 0
+avgValue: 0.0"]
+	31 -> 33
 }

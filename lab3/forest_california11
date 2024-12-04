@@ -2,22 +2,22 @@ digraph {
 	0 [label="
 id: 0
 splitValue: -
-nextSplitAttribute: Latitude
-mse: 19077.566238101615
+nextSplitAttribute: Population
+mse: 19374.678175271685
 samples: 14447"]
 	1 [label="
 id: 1
 splitValue: 0
 nextSplitAttribute: AveOccup
-mse: 1213.3326571477905
-samples: 1230"]
+mse: 17753.8308338942
+samples: 12689"]
 	0 -> 1
 	2 [label="
 id: 2
 splitValue: 0
-mse: 1213.3326571477905
-samples: 1230
-avgValue: 1.9380588211382115"]
+mse: 17753.8308338942
+samples: 12689
+avgValue: 2.0738523335172196"]
 	1 -> 2
 	3 [label="
 id: 3
@@ -29,15 +29,15 @@ avgValue: 0.0"]
 id: 4
 splitValue: 1
 nextSplitAttribute: AveOccup
-mse: 8317.776309503439
-samples: 6546"]
+mse: 1607.3703453279554
+samples: 1755"]
 	0 -> 4
 	5 [label="
 id: 5
 splitValue: 0
-mse: 8317.776309503439
-samples: 6546
-avgValue: 2.3019225588145433"]
+mse: 1607.3703453279554
+samples: 1755
+avgValue: 1.986826455840456"]
 	4 -> 5
 	6 [label="
 id: 6
@@ -49,15 +49,15 @@ avgValue: 0.0"]
 id: 7
 splitValue: 2
 nextSplitAttribute: AveOccup
-mse: 374.4396360470886
-samples: 569"]
+mse: 0.01622400000000003
+samples: 3"]
 	0 -> 7
 	8 [label="
 id: 8
 splitValue: 0
-mse: 374.4396360470886
-samples: 569
-avgValue: 1.3079666432337433"]
+mse: 0.01622400000000003
+samples: 3
+avgValue: 1.292"]
 	7 -> 8
 	9 [label="
 id: 9
@@ -65,104 +65,4 @@ splitValue: 1
 samples: 0
 avgValue: 0.0"]
 	7 -> 9
-	10 [label="
-id: 10
-splitValue: 3
-nextSplitAttribute: AveOccup
-mse: 901.4640063444413
-samples: 956"]
-	0 -> 10
-	11 [label="
-id: 11
-splitValue: 0
-mse: 901.4640063444413
-samples: 956
-avgValue: 1.360721788702929"]
-	10 -> 11
-	12 [label="
-id: 12
-splitValue: 1
-samples: 0
-avgValue: 0.0"]
-	10 -> 12
-	13 [label="
-id: 13
-splitValue: 4
-nextSplitAttribute: AveOccup
-mse: 4802.676634414316
-samples: 3243"]
-	0 -> 13
-	14 [label="
-id: 14
-splitValue: 0
-mse: 4802.676634414316
-samples: 3243
-avgValue: 2.4550487480727723"]
-	13 -> 14
-	15 [label="
-id: 15
-splitValue: 1
-samples: 0
-avgValue: 0.0"]
-	13 -> 15
-	16 [label="
-id: 16
-splitValue: 5
-nextSplitAttribute: AveOccup
-mse: 522.8135389549702
-samples: 1177"]
-	0 -> 16
-	17 [label="
-id: 17
-splitValue: 0
-mse: 522.8135389549702
-samples: 1177
-avgValue: 1.5657595581988106"]
-	16 -> 17
-	18 [label="
-id: 18
-splitValue: 1
-samples: 0
-avgValue: 0.0"]
-	16 -> 18
-	19 [label="
-id: 19
-splitValue: 6
-nextSplitAttribute: AveOccup
-mse: 100.71212281212568
-samples: 436"]
-	0 -> 19
-	20 [label="
-id: 20
-splitValue: 0
-mse: 100.71212281212568
-samples: 436
-avgValue: 1.0903095871559632"]
-	19 -> 20
-	21 [label="
-id: 21
-splitValue: 1
-samples: 0
-avgValue: 0.0"]
-	19 -> 21
-	22 [label="
-id: 22
-splitValue: 7
-nextSplitAttribute: AveOccup
-mse: 20.464692748888275
-samples: 290"]
-	0 -> 22
-	23 [label="
-id: 23
-splitValue: 0
-mse: 20.464692748888275
-samples: 290
-avgValue: 0.8363033793103448"]
-	22 -> 23
-	24 [label="
-id: 24
-splitValue: 1
-samples: 0
-avgValue: 0.0"]
-	22 -> 24
 }
